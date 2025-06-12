@@ -6,7 +6,9 @@ export default defineConfig({
   define: {
     global: {},
   },
-  optimizeDeps: {
-    include: ['draft-js'],
+  resolve: {
+    alias: {
+      'draft-js': 'draft-js/dist/Draft.js',
+    },
   },
 });

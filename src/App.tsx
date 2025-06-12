@@ -1,7 +1,9 @@
+
+
 import  { useState } from 'react';
 import { EditorState, convertToRaw } from 'draft-js';
 import WysiwygEditor from './components/WysiwygEditor';
-import 'draft-js/dist/Draft.css';
+
 
 const App: React.FC = () => {
   const [editorState, setEditorState] = useState(EditorState.createEmpty());

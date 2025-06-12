@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import {Editor, EditorState, RichUtils} from 'draft-js';
-import 'draft-js/dist/Draft.css';
 const defaultStyles = {
   border: '1px solid #ccc',
   padding: '8px',
